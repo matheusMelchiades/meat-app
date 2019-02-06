@@ -221,11 +221,23 @@ body {
   font-size: 30px;
 }
 
+.login-jumbotron {
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 60px; 
+}
+
 /* inputs */
 
 .fancy-radio {
   position: absolute;
   opacity: 0;
+}
+
+.login-input {
+  
+  text-align: center;
 }
 
 /*Review*/

@@ -1,0 +1,24 @@
+<section class="content-header">
+</section>
+
+<section class="content">
+
+  <div class="jumbotron login-jumbotron">
+    <h3>Login</h3>
+    <form [formGroup]="loginForm">
+      <input class="form-control login-input" formControlName="email" placeholder="email"><br>
+      <input class="form-control login-input" formControlName="password" placeholder="senha">
+    </form>
+
+    <button (click)="login(loginForm)">Sing in</button>
+  </div>
+  {{ resposta?._id }}
+  <br>
+  {{ resposta?.name }}
+  <br>
+  {{ resposta?.email }}
+  <br>
+  {{ resposta?.expirateToken }}
+  <br>
+  {{ resposta?.token }}
+</section>
